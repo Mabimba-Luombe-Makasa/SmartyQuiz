@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'sans-serif';
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #ff0000, #00ff00);
+    transition: background 1s linear;
+}
+
+.app {
+    background: #ffffffcc;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.329);
+}
+
+h1 {
+    font-size: 40px;
+    color: #001e4d;  
+    font-weight: 900;
+    font-family: 'Red Hat Display';
+    border-bottom: 1px solid #333;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.quiz {
+    padding: 20px 0;
+}
+
+h2 {
+    font-size: 23px;
+    color: #001e4d;
+    font-weight: 600;
+}
+
+.button-1 {
+    background: #ffffffbd;
+    font-weight: 500;
+    font-size: 15px;
+    width: 100%;
+    border:  2px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.button-1:hover:not([disabled]) {
+    background: #222;
+    color: #fff;
+}
+
+.button-1:disabled {
+    cursor: no-drop;
+}
+
+#next-button {
+    background-color: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+.correct {
+    background: #11ff78;
+}
+
+.incorrect {
+    background: #ff5555;
+}
